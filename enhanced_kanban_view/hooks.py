@@ -25,12 +25,9 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = [
-    "/assets/enhanced_kanban_view/css/enhanced_kanban_view.css",
-]
-app_include_js = [
-    "/assets/enhanced_kanban_view/js/enhanced_create_kanban_card.js",
-]
+app_include_css = "/assets/enhanced_kanban_view/css/enhanced_kanban_view.css"
+
+app_include_js = "enhanced_kanban_view.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/enhanced_kanban_view/css/enhanced_kanban_view.css"
