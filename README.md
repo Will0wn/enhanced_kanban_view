@@ -37,7 +37,7 @@ The app intelligently manages your Kanban columns:
 ### Install the App
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/ibrahim317/enhanced_kanban_view
 cd enhanced_kanban_view
 
 # Install the app
