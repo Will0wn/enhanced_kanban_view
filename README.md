@@ -216,6 +216,7 @@ This project is licensed under the MIT License - see the [LICENSE](license.txt) 
 
 ## 🙏 Acknowledgments
 
+- **Bitrix24** - This design and functionality is inspired by Bitrix24's Kanban board system
 - Frappe Framework team for the excellent foundation
 - ERPNext community for inspiration and feedback
 - All contributors who helped improve this app
