@@ -1,6 +1,6 @@
 # 🎯 Enhanced Kanban View
 
-A powerful custom Frappe app that extends the standard Kanban view functionality with advanced features for better workflow management and data validation.
+A powerful custom Frappe app that extends the standard Kanban view functionality with advanced features for better workflow management and data validation. **Inspired by Bitrix24's Kanban board system**, this app brings enterprise-level workflow management capabilities to the Frappe/ERPNext ecosystem.
 
 ## ✨ Features
 
@@ -194,7 +194,7 @@ We welcome contributions! Please follow these guidelines:
 ### Development Setup
 ```bash
 # Clone and setup development environment
-git clone <repository-url>
+git clone https://github.com/ibrahim317/enhanced_kanban_view
 cd enhanced_kanban_view
 
 # Install development dependencies
@@ -208,17 +208,10 @@ bench run-tests enhanced_kanban_view
 
 This project is licensed under the MIT License - see the [LICENSE](license.txt) file for details.
 
-## 👨‍💻 Author
-
-**Ibrahim Aboelsoud**
-- Email: i.aboelsoud21@gmail.com
-- GitHub: [@your-username]
-
 ## 🙏 Acknowledgments
 
 - **Bitrix24** - This design and functionality is inspired by Bitrix24's Kanban board system
 - Frappe Framework team for the excellent foundation
-- ERPNext community for inspiration and feedback
 - All contributors who helped improve this app
 
 ## 📞 Support
