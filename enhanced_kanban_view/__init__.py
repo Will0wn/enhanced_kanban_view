@@ -24,8 +24,12 @@ def load_monkey_patches():
     try:
         if app_name not in frappe.get_installed_apps():
             return
-    except RuntimeError:
-        # During bench commands, we can't check installed_apps, so we'll just assume it is installed
+    except (RuntimeError, AssertionError):
+        # During bench commands (e.g. `bench build`) there is no site context, so
+        # frappe.get_installed_apps() cannot connect to a database. Older Frappe
+        # raised RuntimeError, while Frappe v15+/v16 raises AssertionError
+        # ("site must be fully initialized, db_name missing"). Catch both and
+        # assume the app is installed.
         pass
 
     for module_name in os.listdir(frappe.get_app_path(app_name, "monkey_patches")):
